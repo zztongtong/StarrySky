@@ -1,0 +1,160 @@
+
+<!doctype html>
+<html>
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>鲸之声</title>
+
+
+<!-- 使用url函数转换相关路径 -->
+<link rel="stylesheet" href="style/css/bootstrap.min.css">
+<link href="style/fonts/stylesheet.css" rel="stylesheet" type="text/css" /> 
+<link rel="stylesheet" href="style/css/style.min.css?b=1.0.2">
+<link rel="stylesheet" href="style/css/viewer.min.css">
+<script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+
+<link href="prismjs/prism_black.css" rel="stylesheet" type="text/css" />
+<script src="prismjs/prism_black.js"></script>
+
+<!--字体-->
+<link rel="preload" href="https://at.alicdn.com/t/font_2889477_kba4vejhzk.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="stylesheet" href="https://at.alicdn.com/t/font_2889477_kba4vejhzk.css">
+</head>
+<body>
+<!--<div class="landscape"></div>-->
+<!--<div class="filter"></div>-->
+<canvas id="canvas"></canvas>
+
+<div class="tin-protect" style="position: absolute;">
+    <div class="container">
+        <header>
+
+            <!--PC端导航-->
+            <div class="tin-nav-pc">
+                    <div class="tin-logo">
+                        <a href="/"><span>听风✨</span></a>
+                    </div>
+                    <div class="tin-son-nav">
+                        <ul>
+                            <li><a href="">文章</a></li>
+                            <li><a href="">皮肤</a></li>
+                            <li><a href="">Demo</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <!--手机端导航-->
+            <div class="tin-nav-wap">
+                <div class="tin-logo tin-fl-left">
+                    <a href="/"><span>听风✨</span></a>
+                </div>
+                <div class="tin-son-nav tin-fl-right">
+                    <div class="tin-tw">
+                        <div class="container-btn">
+                          <div class="stick stick-1"></div>
+                          <div class="stick stick-2"></div>
+                          <div class="stick stick-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tin-son-nav-wap">
+                <div class="tin-logo">
+                    <span>听风✨</span>
+                </div>
+                <ul>
+                    <li><a href="">文章</a></li>
+                    <li><a href="">皮肤</a></li>
+                    <li><a href="">Demo</a></li>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <div class="post-warp">
+                
+                <div class="post-warp-title">
+                    <h4>3242342</h4>
+                </div>
+                <div class="post-warp-info">
+                    <p>作者 by 2323 / 2021-11-1  </p>
+                </div>
+                
+                <div class="post-warp-content" id="viewer_img">
+                    324
+                </div>
+                
+                <div class="t-my-pl">
+                    <script type="text/javascript">
+                        function showhidediv(id){
+                            var sbtitle=document.getElementById(id);
+                            if(sbtitle){
+                                if(sbtitle.style.display=='flex'){
+                                    sbtitle.style.display='none';
+                                }else{
+                                    sbtitle.style.display='flex';
+                                }
+                            }
+                        }
+                        (function(){
+                            window.TypechoComment={dom:function(id){return document.getElementById(id)},pom:function(id){return document.getElementsByClassName(id)[0]},iom:function(id,dis){var alist=document.getElementsByClassName(id);if(alist){for(var idx=0;idx<alist.length;idx++){var mya=alist[idx];mya.style.display=dis}}},create:function(tag,attr){var el=document.createElement(tag);for(var key in attr){el.setAttribute(key,attr[key])}return el},reply:function(cid,coid){var comment=this.dom(cid),parent=comment.parentNode,response=this.dom("<?php echo $this->respondId(); ?>"),input=this.dom("comment-parent"),form="form"==response.tagName?response:response.getElementsByTagName("form")[0],textarea=response.getElementsByTagName("textarea")[0];if(null==input){input=this.create("input",{"type":"hidden","name":"parent","id":"comment-parent"});form.appendChild(input)}input.setAttribute("value",coid);if(null==this.dom("comment-form-place-holder")){var holder=this.create("div",{"id":"comment-form-place-holder"});response.parentNode.insertBefore(holder,response)}comment.appendChild(response);this.iom("comment-reply","");this.pom("cp-"+cid).style.display="none";this.iom("cancel-comment-reply","none");this.pom("cl-"+cid).style.display="";if(null!=textarea&&"text"==textarea.name){textarea.focus()}return false},cancelReply:function(){var response=this.dom("<?php echo $this->respondId(); ?>"),holder=this.dom("comment-form-place-holder"),input=this.dom("comment-parent");if(null!=input){input.parentNode.removeChild(input)}if(null==holder){return true}this.iom("comment-reply","");this.iom("cancel-comment-reply","none");holder.parentNode.insertBefore(response,holder);return false}}})();
+                        </script>
+                        
+                        
+                         
+                        <!---------------------------------------------------------------分割线-------------------------------------------------------->
+                        
+                        <div id="2" class="t-comment-yi comment">
+                            <ul class="t-comment-list-bolck comment-body" id="23">
+                                <li>
+                                    <div class="t-comment-user-img" style="background: url('<?php headportrait($comments->mail) ?>');">
+                                    </div>
+                                    <div class="t-comment-user-name">
+                                        <h5>232</h5>
+                                        <p>23</p>
+                                    </div>
+                                    
+                                    <div class="t-comment-content">
+                                      2323
+                                    </div>
+                                    
+                                    <div class="t-comment-reply">
+                                         <i class="iconfont icon-a-EditSquare"></i>
+                                         <span class="comment-reply  text-muted comment-reply-link">回复</span><span id="cancel-comment-reply" class="cancel-comment-reply cl-<?php $comments->theId(); ?> text-muted comment-reply-link" style="display:none" ><?php $comments->cancelReply(); ?></span>
+                                    </div>
+                                    
+                                     
+                                </li>
+                            </ul>
+                            <div class="comment-children">
+                               
+                            </div>
+
+                           
+                        </div>
+                </div>
+                
+                
+            </div>
+        </section>
+        
+        <footer>
+            <div class="tin-footer">
+                <p>©  Powered by <a href="http://typecho.org/">Typecho</a> & <a href="https://blog.owoii.com/">StarrySky</a> | Loading time ：</p>
+            </div>
+        </footer>
+        
+    </div>
+</div>
+
+<script src="style/js/viewer.min.js"></script>
+<script src="style/js/jquery-viewer.min.js"></script>
+<script src="style/js/style.min.js"></script>
+<script src="style/js/i.js"></script>
+
+<div class="toTop">
+    <span class="iconfont icon-jiantoushang"></span>
+</div>
+</body>
+</html>
